@@ -1,13 +1,3 @@
-/**
-* Template Name: Imperial - v5.7.0
-* Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #666666;
@@ -21,7 +11,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: #CB9E61;
   outline: none;
   text-decoration: none;
 }
@@ -60,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #03C4EB;
+  background: #CB9E61;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -72,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #1bd6fc;
+  background: #CB9E61;
   color: #fff;
 }
 .back-to-top.active {
@@ -129,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
-  border-bottom: 2px solid #03C4EB;
+  border-bottom: 2px solid #CB9E61;
 }
 @media (max-width: 768px) {
   #hero h2 {
@@ -157,8 +147,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #CB9E61;
+  border: 2px solid #CB9E61;
   color: #fff;
 }
 #hero .btn-get-started:hover {
@@ -171,8 +161,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #CB9E61;
+  border: 2px solid #CB9E61;
 }
 
 /*--------------------------------------------------------------
@@ -253,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #03C4EB;
+  color: #CB9E61;
 }
 .navbar .dropdown ul {
   display: block;
@@ -281,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #03C4EB;
+  color: #CB9E61;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -363,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #333333;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #03C4EB;
+  color: #CB9E61;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -389,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #03C4EB;
+  color: #CB9E61;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -420,7 +410,7 @@ section {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #CB9E61;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -474,10 +464,10 @@ section {
 }
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #CB9E61;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #CB9E61;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -493,7 +483,7 @@ section {
   background: #fff;
 }
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #CB9E61;
 }
 #services .service-title {
   margin-left: 80px;
@@ -543,8 +533,8 @@ section {
   color: #fff;
 }
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #CB9E61;
+  border: 2px solid #CB9E61;
 }
 
 /* Portfolio Section
@@ -571,7 +561,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #03C4EB;
+  color: #CB9E61;
 }
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -610,7 +600,7 @@ section {
   color: #4d4d4d;
 }
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #03C4EB;
+  color: #CB9E61;
 }
 #portfolio .portfolio-item .portfolio-info .details-link {
   right: 15px;
@@ -637,10 +627,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #03C4EB;
+  border: 1px solid #CB9E61;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #03C4EB;
+  background-color: #CB9E61;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -695,7 +685,7 @@ section {
 }
 #testimonials .profile h4 {
   font-weight: 700;
-  color: #03C4EB;
+  color: #CB9E61;
   margin-bottom: 5px;
 }
 #testimonials .profile span {
@@ -758,7 +748,7 @@ section {
   color: #b3b3b3;
 }
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #CB9E61;
 }
 #team .member .social i {
   font-size: 18px;
@@ -776,7 +766,7 @@ section {
 }
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #CB9E61;
   float: left;
   line-height: 0;
 }
@@ -826,17 +816,17 @@ section {
   box-shadow: none;
 }
 #contact .php-email-form input:focus, #contact .php-email-form textarea:focus {
-  background-color: #03C4EB;
+  background-color: #CB9E61;
 }
 #contact .php-email-form button[type=submit] {
-  background: #03C4EB;
+  background: #CB9E61;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
 #contact .php-email-form button[type=submit]:hover {
-  background: #25d8fc;
+  background: #CB9E61;
 }
 @-webkit-keyframes animate-loading {
   0% {
