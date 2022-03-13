@@ -11,7 +11,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #CB9E61;
+  color: #000;
   outline: none;
   text-decoration: none;
 }
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #CB9E61;
+  background: #C1A37F;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -190,13 +190,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-#header .logo a {
-  color: #fff;
-}
-#header .logo img {
-  height: 50px;
-}
-
 .scrolled-offset {
   margin-top: 70px;
 }
@@ -204,6 +197,11 @@ h1, h2, h3, h4, h5, h6 {
   .scrolled-offset {
     margin-top: 60px;
   }
+}
+
+#title{
+  margin-bottom: 0;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -258,17 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  text-transform: none;
-  color: #333333;
-}
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
+
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #CB9E61;
 }
@@ -387,8 +375,6 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
-/* Sections Common
---------------------------------*/
 section {
   overflow: hidden;
 }
@@ -454,7 +440,7 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/imageFondCoaching.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -497,11 +483,6 @@ section {
   margin-left: 80px;
   line-height: 24px;
 }
-.servicesPrestations {
-display: flex;
-justify-content: space-around;
-}
-
 
 /* Portfolio Section
 --------------------------------*/
@@ -693,18 +674,16 @@ justify-content: space-around;
   border-radius: 0;
   box-shadow: none;
 }
-#contact .php-email-form input:focus, #contact .php-email-form textarea:focus {
-  background-color: #CB9E61;
-}
+
 #contact .php-email-form button[type=submit] {
-  background: #CB9E61;
+  background: #ceb08a;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
 #contact .php-email-form button[type=submit]:hover {
-  background: #CB9E61;
+  background: #C1A37F;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -762,11 +741,22 @@ justify-content: space-around;
   }
 }
 
+.subtiles {
+  margin-left: 80px;
+  margin-bottom: 15px;
+}
+
+.prix {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #111;
+  margin-top: 20px;
+  background: #C1A37F;
   padding: 20px 0;
   color: #fff;
 }
