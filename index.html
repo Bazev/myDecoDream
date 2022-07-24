@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 
 <head>
   <meta charset="utf-8">
@@ -21,9 +21,6 @@
   <meta name="twitter:description" content="">
   <meta name="twitter:image" content="">
 
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -33,6 +30,16 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PW72K9208"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8PW72K9208');
+  </script>
 </head>
 
 <body>
@@ -40,7 +47,7 @@
   <section id="hero">
     <div class="hero-container">
       <div data-aos="fade-in">
-        <img src="assets/img/LogoTransparent.png">
+        <img src="assets/img/LogoTransparent.png" alt="logo">
         <h2>Spécialisée en <span class="typed" data-typed-items="Home Staging, Création de projet, Coaching"></span></h2>
         <div class="actions">
           <a href="#about" class="btn-get-started">Qui sommes-nous ?</a>
@@ -54,7 +61,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
       <div >
-        <h1 id="title">My Deco Dream</h1></a>
+        <h1 id="title">My Deco Dream</h1>
       </div>
       <!-- Uncomment below if you prefer to use a text logo -->
       <!-- <h1 class="logo mr-auto"><a href="index.html">Imperial</a></h1> -->
@@ -111,7 +118,6 @@
             Qu'il s'agisse d'un appartement, de bureaux, d'une boutique ou d'un restaurant, j'aime les ambiances douces
             et épurées. C'est ma marque de fabrique ! Cependant, je m'engage à imaginer et concevoir une ambiance qui
             vous ressemble car il ne suffit pas d'avoir un bel intérieur, il faut s'y sentir bien.
-            </p>
           </div>
         </div>
       </div>
@@ -131,7 +137,7 @@
 
         <div class="row" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><img src="assets/img/services/initial.png" class="service-icon"></div>
+            <div class="service-icon"><img src="assets/img/services/initial.png" class="service-icon" alt="service"></div>
             <h4 class="service-title">Coaching initial</h4>
             <div class="subtiles">
               <p class="prix">À partir de 180 €</p>
@@ -142,7 +148,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><img src="assets/img/services/premium.png" class="service-icon"></div>
+            <div class="service-icon"><img src="assets/img/services/premium.png" class="service-icon" alt="services"></div>
             <h4 class="service-title">Coaching Premium</h4>
             <div class="subtiles">
               <p class="prix"> À partir de 240 €</p>
@@ -155,7 +161,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><img src="assets/img/services/gold.png" class="service-icon"></div>
+            <div class="service-icon"><img src="assets/img/services/gold.png" class="service-icon" alt="serviceGold"></div>
             <h4 class="service-title"><a href="">Coaching Gold</a></h4>
             <div class="subtiles">
               <p class="prix">Sur devis</p>
@@ -174,13 +180,13 @@
             </div>
      
             <div class="col-lg-6 col-md-6 service-item">
-            <div class="service-icon"><img src="assets/img/services/cleMain.png" class="service-icon"></img></div>
+            <div class="service-icon"><img src="assets/img/services/cleMain.png" class="service-icon" alt="serviceCle"></div>
             <h4 class="service-title"><a href="">Home Staging clé en main</a></h4>
             <p class="service-description">Cette formule inclut un état des lieux avec diagnostic + un aménagement personnalisé avec mise à disposition du mobilier et des éléments de décoration le temps de la vente. </p>
             </div>
 
             <div class="col-lg-6 col-md-6 service-item">
-            <div class="service-icon"><img src="assets/img/services/homeStaging.png" class="service-icon"></img></div>
+            <div class="service-icon"><img src="assets/img/services/homeStaging.png" class="service-icon" alt="service"></div>
             <h4 class="service-title"><a href="">Home Staging</a></h4>
             <p class="service-description">Ensemble, nous effectuons un état des lieux détaillé de chaque pièce ciblant les points sur lesquels il est nécessaire d'intervenir. Le diagnostic vous est envoyé par mail à la suite de ma visite. </p>
           </div>
@@ -203,11 +209,12 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Tous</li>
-              <li data-filter=".filter-entree">Entrée</li>
-              <li data-filter=".filter-pdv">Pièce de vie</li>
-              <li data-filter=".filter-cuisine">Cuisine</li>
               <li data-filter=".filter-chambre">Chambre</li>
-              <li data-filter=".filter-sdb">Salle de bain</li>
+              <li data-filter=".filter-chambreEnfant">Chambre Enfant</li>
+              <li data-filter=".filter-entree">Entrée</li>
+              <li data-filter=".filter-salon">Salon</li>
+              <li data-filter=".filter-salleDeBain">Salle de bain</li>
+              <li data-filter=".filter-wc">WC</li>
             </ul>
           </div>
         </div>
@@ -215,71 +222,103 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-chambre">
-            <img src="assets/img/portfolio/RealisationChambre.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/chambreAppart1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Chambre</h4>
-              <a href="assets/img/portfolio/RealisationChambre.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bi bi-plus"></i></a>
+              <a href="assets/img/portfolio/chambreAppart1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bi bi-plus"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-chambre">
-            <img src="assets/img/portfolio/RealisationChambre(1).jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/chambreAppart2.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Chambre</h4>
-              <a href="assets/img/portfolio/RealisationChambre(1).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bi bi-plus"></i></a>
+              <a href="assets/img/portfolio/chambreAppart2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Chambre"><i class="bi bi-plus"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-chambre">
-            <img src="assets/img/portfolio/RealisationChambre(2).jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/chambreEnfantPapierPaintLit.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Chambre d'enfant</h4>
+              <a href="assets/img/portfolio/chambreEnfantPapierPaintLit" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Papier paint, Chambre d'enfant"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-chambreEnfant">
+            <img src="assets/img/portfolio/chambreEnfant1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Chambre d'enfant</h4>
+              <a href="assets/img/portfolio/chambreEnfant1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Chambre d'enfant"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-chambreEnfant">
+            <img src="assets/img/portfolio/chambreEnfant2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Chambre d'enfant</h4>
+              <a href="assets/img/portfolio/chambreEnfant2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Chambre d'enfant"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-chambre">
+            <img src="assets/img/portfolio/chambreMaison1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Chambre</h4>
-              <a href="assets/img/portfolio/RealisationChambre(2).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bi bi-plus"></i></a>
+              <a href="assets/img/portfolio/chambreMaison1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Chambre"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-chambre">
+            <img src="assets/img/portfolio/chambreMaison2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Chambre</h4>
+              <a href="assets/img/portfolio/chambreMaison2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Chambre"><i class="bi bi-plus"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-entree">
-            <img src="assets/img/portfolio/RealisationEntrée.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/entree.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Entrée</h4>
-              <a href="assets/img/portfolio/Realisationentrée.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bi bi-plus"></i></a>
+              <a href="assets/img/portfolio/entree.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Entrée"><i class="bi bi-plus"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-pdv">
-            <img src="assets/img/portfolio/RealisationSalle.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Salle à manger</h4>
-              <a href="assets/img/portfolio/RealisationSalle.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bi bi-plus"></i></a>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-pdv">
-            <img src="assets/img/portfolio/RealisationSalon.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Salon</h4>
-              <a href="assets/img/portfolio/RealisationSalon.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bi bi-plus"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cuisine">
-            <img src="assets/img/portfolio/RealisationCuisine.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Cuisine</h4>
-              <a href="assets/img/portfolio/RealisationCuisine.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bi bi-plus"></i></a>
-            </div>
-          </div>
-
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cuisine">
-            <img src="assets/img/portfolio/RealisationCuisine2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Cuisine</h4>
-              <a href="assets/img/portfolio/RealisationCuisine2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bi bi-plus"></i></a>
-            </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-salon">
+          <img src="assets/img/portfolio/salonAppart1.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Salon</h4>
+            <a href="assets/img/portfolio/salonAppart1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Salon d'un appartement"><i class="bi bi-plus"></i></a>
           </div>
         </div>
 
+      <div class="col-lg-4 col-md-6 portfolio-item filter-salon">
+        <img src="assets/img/portfolio/salonMaison.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Salon</h4>
+          <a href="assets/img/portfolio/salonMaison.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Salon d'une maison"><i class="bi bi-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-salleDeBain">
+        <img src="assets/img/portfolio/sdbMaison.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Salle de bain</h4>
+          <a href="assets/img/portfolio/sdbMaison.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Salle de bain"><i class="bi bi-plus"></i></a>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-wc">
+        <img src="assets/img/portfolio/wcMaison.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Wc</h4>
+          <a href="assets/img/portfolio/wcMaison.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Wc"><i class="bi bi-plus"></i></a>
+        </div>
+      </div>
+      </div>
       </div>
     </section>
 
@@ -317,24 +356,30 @@
             <div class="form">
               <form action="https://formsubmit.co/cecilia@mydecodream.fr" method="post" role="form" class="php-email-form">
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>
+                  <label for="name"></label><input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>
                 </div>
                 <div class="form-group mt-3">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
+                  <label for="email"></label><input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
                 </div>
                 <div class="form-group mt-3">
                   <label>Surface concernée :</label><br>
-                  <input type="number" class="form-control" name="pieces concernés " placeholder="Surface en m²" required>
+                  <label>
+                    <input type="number" class="form-control" name="pieces concernés " placeholder="Surface en m²" required>
+                  </label>
                 </div>
                 <div class="form-group mt-3">
                   <label>Pièce(s) concernée(s) :</label><br>
-                  <input type="text" class="form-control" name="pieces concernés " placeholder="Salle de bain, Cuisine, Séjour..." required>
+                  <label>
+                    <input type="text" class="form-control" name="pieces concernés " placeholder="Salle de bain, Cuisine, Séjour..." required>
+                  </label>
                 </div>
                 <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
+                  <label for="subject"></label><input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
                 </div>
                 <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Votre Message" required></textarea>
+                  <label>
+                    <textarea class="form-control" name="message" rows="5" cols="53" placeholder="Votre Message" required></textarea>
+                  </label>
                 </div>
                 <div class="my-3">
                   <div class="loading">Progression...</div>
@@ -363,9 +408,8 @@
         </div>
         
       </div>
-    </div>
-    
-    
+
+
   </main><!-- End #main -->
 
   <footer id="footer">
@@ -394,7 +438,7 @@
                   <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                 </svg></a>
                 <a href="https://www.houzz.fr/hznb/professionnels/decorateur-et-styliste-d-interieur/my-deco-dream-decoratrice-d-interieur-pfvwfr-pf~1422241637"  target="_blank">
-                  <img src="assets/img/houuzw.png" alt="" width="26" height="26">
+                  <img src="assets/img/houuzw.png" alt="" width="24" height="24">
                 </a>
               </div>
                 
